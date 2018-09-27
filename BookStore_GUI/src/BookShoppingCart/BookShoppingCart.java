@@ -536,9 +536,9 @@ public class BookShoppingCart extends Application {
             // Establish a connection to the remote database
             connection = DriverManager.getConnection(
             // IP address of the Oracle1 server, port 1521, SID name
-                "jdbc:oracle:thin:@198.146.192.57:1521:orcl",
-                "prjadwin",    // A generic Oracle account 
-                "vM7J3vgr"
+                "",
+                "",    // A generic Oracle account 
+                ""
             );
             System.out.println("Database connected");
             // Create a statement
